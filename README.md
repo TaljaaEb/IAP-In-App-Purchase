@@ -1,23 +1,20 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
-                    ┌──────────────────┐<br>
-                    │ webhook_server   │<br>
-                    │                  │<br>
-                    │  event collector │<br>
-                    └────────┬─────────┘<br>
-                             │<br>
-              ┌──────────────┼──────────────┐<br>
-              ▼              ▼              ▼<br>
-          /iap           /merchant       /itemlines<br>
-              │              │              │<br>
-              ▼              ▼              ▼<br>
-        entitlement       A/B logic          C<br>
-              │<br>
-              ▼<br>
-           Tkinter<br>
-</body>
-</html>
+## Webhook / IAP Event Flow
+
+```text
+                    ┌──────────────────┐
+                    │ webhook_server   │
+                    │                  │
+                    │  event collector │
+                    └────────┬─────────┘
+                             │
+              ┌──────────────┼──────────────┐
+              ▼              ▼              ▼
+           /iap          /merchant       /itemlines
+              │              │              │
+              ▼              ▼              ▼
+        entitlement       A/B logic          C
+              │
+              ▼
+           Tkinter
+```
+
