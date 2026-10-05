@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
                     ┌──────────────────┐<br>
                     │ webhook_server   │<br>
                     │                  │<br>
@@ -13,3 +19,5 @@
               │<br>
               ▼<br>
            Tkinter<br>
+</body>
+</html>
